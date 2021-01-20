@@ -1,6 +1,5 @@
 import React,  { Fragment, useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import swal from 'sweetalert';
 import cep from 'cep-promise'
 import $ from "jquery";
 import { Formik, Field, Form } from 'formik';

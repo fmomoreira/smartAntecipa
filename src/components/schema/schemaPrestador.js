@@ -1,5 +1,5 @@
 import * as yup from 'yup';
-import { string } from 'yup/lib/locale';
+import { } from 'yup/lib/locale';
 
 export default yup.object().shape({
     cnpj:yup.string().required('Número de documento é obrigatorio.!'),

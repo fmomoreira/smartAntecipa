@@ -17,7 +17,7 @@ import movimentacoes from './components/financeiro/movimentacao/index'
 import Dashboard from './components/Dashboard'
 
 
-export default ()=>{
+export default function rotas(){
     
     return(
         <Switch>
